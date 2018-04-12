@@ -1,0 +1,4 @@
+port SENTINEL_PORT2
+protected-mode no
+sentinel monitor hexmeet_redis MASTER_IP REDIS_PORT1 1
+sentinel down-after-milliseconds hexmeet_redis 10000

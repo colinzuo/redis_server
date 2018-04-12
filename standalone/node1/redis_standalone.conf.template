@@ -1,0 +1,4 @@
+port REDIS_PORT1
+protected-mode no
+cluster-enabled no
+slaveof no one
